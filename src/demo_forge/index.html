@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Тест Forge</title>
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=no"
+    />
+    <meta charset="utf-8" />
+    <meta
+      name="keywords"
+      content="forge,autodesk,autodesk forge,forge api,3d,test site"
+    />
+    <meta
+      name="description"
+      content="тестовый сайт с использованием autodesk forge"
+    />
+    <link
+      href="/content/logo_forge.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/style.min.css"
+      type="text/css"
+    />
+
+    <script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/viewer3D.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script src="/js/scriptMenu.js"></script>
+    <script src="/js/scriptGallery.js"></script>
+    <script src="/js/scriptLoader.js"></script>
+    <script src="/js/forge/scriptForgeExtension.js"></script>
+    <script src="/js/forge/scriptForgeRequests.js"></script>
+    <script src="/js/forge/scriptForgeViewer.js"></script>
+  </head>
+  <body>
+    <input type="checkbox" id="check-menu" />
+    <label id="menulabel" for="check-menu">Меню</label>
+
+    <header>
+      <label id="menulabel2" for="check-menu">Cкрыть</label>
+
+      <nav id="navMenu">
+        <button id="mod1">3D-галерея</button>
+        <button id="mod2">Загрузить модель</button>
+      </nav>
+
+      <nav id="navModels">
+        <button class="back">Назад</button>
+        <button id="1">Домик</button>
+        <button id="2">Болид</button>
+        <button id="5">Двигатель</button>
+        <button id="4">Турбина</button>
+        <button id="3">Вертолет</button>
+      </nav>
+
+      <nav id="navLoader">
+        <button class="back">Назад</button>
+        <button id="full">На весь экран</button>
+        <button id="unfull">Свернуть</button>
+      </nav>
+
+      <div>
+        <button class="forgeLock" id="MyAwesomeLockButton">Lock it!</button>
+        <button class="forgeLock" id="MyAwesomeUnlockButton">Unlock it!</button>
+      </div>
+    </header>
+
+    <main>
+      <div id="firstmessage">Нажмите на кнопки в меню сайта</div>
+      <section id="fileSection">
+        <div id="fsContainer">
+          <div class="fsDiv">
+            <p>Загрузить файл .x_t</p>
+            <!-- 
+						title="Нажмите, чтобы загрузить файл на сервер после того как статус будет 'файл прочитан'"
+						title="Нажмите, чтобы отобразить загруженный файл после обработки"
+						title="Кнопка для получения статуса обработки файла. Не нажимать во время загрузки файла."
+					 -->
+            <div id="buttons">
+              <button id="upload">Загрузить</button>
+              <button id="show">Показать</button>
+              <button id="manifest">getManifest</button>
+            </div>
+
+            <form>
+              <div id="inputDiv1">
+                <input
+                  id="fileInput"
+                  title="Выберите файл формата .x_t для загрузки на сервер"
+                  name="fileInput"
+                  type="file"
+                  onchange="changefile(this)"
+                />
+                <label
+                  id="fiLabel"
+                  title="Выберите файл формата .x_t для загрузки на сервер"
+                  for="fileInput"
+                  >Выберите файл</label
+                >
+                <p
+                  title="Статус обработки файла"
+                  align="justify"
+                  id="readstatus"
+                >
+                  Статус
+                </p>
+              </div>
+              <div id="inputDiv2">
+                <input
+                  id="bucketInput"
+                  title="Введите название корзины с файлом. Можно не менять"
+                  name="text"
+                  type="text"
+                  value="bucket0000000"
+                  onchange="changeBucketkey(this)"
+                />
+
+                <p style="color: #43434dbb;">bucketKey</p>
+              </div>
+            </form>
+          </div>
+          <div>
+            <a
+              title="Этот файл можно скачать, а затем загрузить для просмотра"
+              id="filehref"
+              href="/content/engine.x_t"
+            >
+              Файл для примера (110 МБ)</a
+            ><br />
+
+            <a
+              title="Этот файл можно скачать, а затем загрузить для просмотра"
+              id="filehref"
+              href="/content/cube.x_t"
+            >
+              Файл для примера (5,63 КБ)</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="viewerSection">
+        <div class="forgeViewer" id="forgeViewer1"></div>
+        <div class="forgeViewer" id="forgeViewer2"></div>
+      </section>
+    </main>
+  </body>
+</html>

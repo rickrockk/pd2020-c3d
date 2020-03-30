@@ -1,0 +1,379 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  background-color: #eeeeee;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  z-index: +3;
+  transition: 1s;
+  height: auto;
+}
+
+header div,
+#menulabel2 {
+  display: flex;
+  min-width: 15%;
+  width: 15%;
+  max-width: 15%;
+  margin: 0 1px;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+}
+
+#menulabel2 {
+  justify-content: left;
+  padding-left: 2vw;
+  align-items: center;
+  font-size: 1em;
+  color: #eeeeee;
+}
+@media (max-width: 27em) {
+  #menulabel2 {
+    font-size: 3.5vw;
+    padding-left: 2vw;
+  }
+}
+
+header div button {
+  display: block;
+  width: 45%;
+  padding: 0;
+  margin: 0;
+  font-size: 1vw;
+  color: #43434d;
+}
+
+nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-width: 50vw;
+  max-width: 70vw;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+nav button {
+  display: block;
+  text-decoration: none;
+  color: #eeeeee;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  text-align: center;
+  min-height: 2em;
+  min-width: fit-content;
+  max-width: 70vw;
+  background-color: #414e8d;
+  text-shadow: 0.3vw 0.3vw 1vw rgba(44, 46, 78, 0.3), 0 0 2vw #3d3d3d3d; /* Параметры тени */
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  transition: 0.1s;
+  flex: 1;
+}
+
+.back {
+  background-color: #8d5341c4;
+}
+@media (max-width: 39em) {
+  #navModels .back {
+    flex: 100%;
+  }
+}
+@media (max-width: 24em) {
+  #navLoader .back {
+    flex: 100%;
+  }
+}
+
+nav button:hover {
+  background-color: #43434d;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+main section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#menulabel {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 2em;
+  line-height: 40px;
+  z-index: +4;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  justify-content: left;
+  padding-left: 2vw;
+  align-items: center;
+  transition: 0.5s;
+}
+
+#check-menu {
+  display: none;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  z-index: +4;
+}
+
+#check-menu:checked ~ header {
+  top: -10em;
+  transition: 1s;
+}
+
+#check-menu:checked ~ header button,
+#check-menu:checked ~ header div,
+#check-menu:checked ~ header label {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  transition: 0.5s;
+}
+
+#check-menu:checked ~ header div button {
+  color: rgba(240, 240, 240, 0);
+  transition: 0.4s;
+}
+
+#check-menu:checked ~ label {
+  background-color: rgba(0, 0, 0, 0.267);
+  color: rgb(0, 0, 0);
+  transition: 2s;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #43434d;
+}
+
+header nav,
+.forgeLock {
+  display: none;
+}
+
+.forgeLock {
+  border: none;
+  text-decoration: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: #eeeeee;
+}
+
+#fileSection {
+  display: flex;
+  position: absolute;
+  left: 0;
+  height: 100vh;
+  width: 50vw;
+  transition: 1s;
+  background-color: #eeeeee;
+  background-color: azure;
+  background-color: rgba(240, 255, 255, 0.103);
+
+  flex-direction: column;
+}
+
+#fsContainer {
+  margin-top: 2em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding: 1vw;
+  font-size: 3vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.fsDiv {
+  text-align: center;
+  background-color: #414e8d80;
+  padding-bottom: 2vh;
+  padding-top: 0.5vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+@media (max-width: 100vh) {
+  #buttons {
+    margin-bottom: 1vh;
+  }
+}
+
+#buttons button {
+  color: #eeeeee;
+
+  text-align: center;
+
+  background-color: #414e8de7;
+  text-shadow: 0.3vw 0.3vw 1vw rgba(44, 46, 78, 0.096), 0 0 2vw #3d3d3d15; /* Параметры тени */
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+
+  min-width: 8em;
+  width: fit-content;
+  margin-bottom: 1vw;
+  padding: 1em;
+}
+
+#buttons button:hover {
+  background-color: #414e8def;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#inputDiv1 {
+  justify-content: right;
+  display: flex;
+  margin-bottom: 1vw;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  align-self: start;
+}
+
+#inputDiv2 {
+  justify-content: right;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.5vw;
+  padding: 0;
+  align-self: start;
+}
+
+#inputDiv2 input {
+  margin-right: 0.2vw;
+  height: min-content;
+  min-width: 20vw;
+  padding: 0;
+  width: 20.7em;
+  max-width: 45vw;
+  transition: 0.1s;
+  color: #43434d;
+}
+
+#inputDiv1 p,
+#inputDiv2 p {
+  margin: 0;
+  padding: 0;
+  transition: 1s;
+}
+
+#inputDiv2 p,
+#inputDiv2 input,
+#inputDiv1 p,
+#inputDiv1 input,
+#buttons button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.7em;
+}
+
+#readstatus {
+  color: #43434dbb;
+  word-wrap: normal;
+  max-width: 50%;
+}
+
+#filehref {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.7em;
+  color: #414e8d;
+  text-shadow: 0.3vw 0.3vw 1vw rgba(44, 46, 78, 0.096), 0 0 2vw #3d3d3d15; /* Параметры тени */
+}
+
+#firstmessage {
+  margin-top: 45vh;
+  left: 50vw;
+  width: fit-content;
+  height: fit-content;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: -1;
+  color: #43434d;
+}
+
+#fileInput {
+  display: none;
+}
+
+#fiLabel {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.7em;
+  display: block;
+  background-color: #eeeeeecc;
+  margin-right: 0.2vw;
+  height: min-content;
+  min-width: 20vw;
+  padding: 0;
+  width: 20.85em;
+  max-width: 45.6vw;
+  transition: 0.1s;
+  padding: 0.1em 0;
+}
+
+#fiLabel:hover {
+  transition: 0s;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media(max-width:100vh){
+  #guiviewer3d-toolbar{
+   margin-bottom: 6vh;
+  }
+}
+
+/*последний стиль убирает поле bucketKey
+#inputDiv2{
+    display: none;
+}
+*/
