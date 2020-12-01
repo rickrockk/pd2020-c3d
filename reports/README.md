@@ -26,7 +26,8 @@
 - [Фролова А.А.](Frolova.md)
 - [Киколиашвили Д.З.](Kikoliashvili.md)
 - [Карабеков А.С.](Karabekov.md)
-
+- [Гаркуша Ф.М.](garkusha.md)
+- [Кормилицын А.А](Kormilitsyn.md)
 
 ## Отчёт
 
