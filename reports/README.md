@@ -25,7 +25,7 @@
 - [Новохатский А.В.](novohatsckij.md)
 - [Фролова А.А.](Frolova.md)
 - [Киколиашвили Д.З.](Kikoliashvili.md)
-- [Гаркуша Ф.М.](Garkusha.md)
+- [Гаркуша Ф.М.](garkusha.md)
 
 ## Отчёт
 
