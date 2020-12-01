@@ -18,13 +18,20 @@
 - [Беседин А.В. ](Besedin.md)
 - [Бокова А.И. ](Bokova.md)
 - [Зметный А.А.](Zmetnyy.md)
-- [Иудина Е.А. ](Iudina.md)
+- [Иудина Е.А. ](iudina_new.md)
 - [Камалетдинов А.А.](Kamaletdinov.md)
 - [Кижаева М.А.](Kizhaeva.md)
 - [Кочнев В.А.](kochnev.md)
-- [Новохатский А.В.](novohatsckij.md)
+- [Новохатский М.Б.](novohatsckij.md)
 - [Фролова А.А.](Frolova.md)
 - [Киколиашвили Д.З.](Kikoliashvili.md)
+- [Вдовин В.С.](Vdovin.md)
+- [Бочарников А.В.](Bocharnikov.md)
+- [Алексеев М.А.](Alexeev.md)
+- [Ильницкая К.И.](Ilnitskaya.md)
+- [Карабеков А.С.](Karabekov.md)
+- [Гаркуша Ф.М.](garkusha.md)
+- [Кормилицын А.А](Kormilitsyn.md)
 
 ## Отчёт
 
