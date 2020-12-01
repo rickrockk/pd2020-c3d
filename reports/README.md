@@ -22,7 +22,7 @@
 - [Камалетдинов А.А.](Kamaletdinov.md)
 - [Кижаева М.А.](Kizhaeva.md)
 - [Кочнев В.А.](kochnev.md)
-- [Новохатский А.В.](novohatsckij.md)
+- [Новохатский М.Б.](novohatsckij.md)
 - [Фролова А.А.](Frolova.md)
 - [Киколиашвили Д.З.](Kikoliashvili.md)
 - [Ильницкая К.И.](Ilnitskaya.md)
