@@ -23,6 +23,7 @@
 - [Кижаева М.А.](Kizhaeva.md)
 - [Кочнев В.А.](kochnev.md)
 - [Новохатский А.В.](novohatsckij.md)
+- [Фролова А.А.](Frolova.md)
 
 ## Отчёт
 
