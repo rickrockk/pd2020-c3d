@@ -25,6 +25,7 @@
 - [Новохатский М.Б.](novohatsckij.md)
 - [Фролова А.А.](Frolova.md)
 - [Киколиашвили Д.З.](Kikoliashvili.md)
+- [Алексеев М.А.](Alexeev.md)
 - [Ильницкая К.И.](Ilnitskaya.md)
 - [Карабеков А.С.](Karabekov.md)
 - [Гаркуша Ф.М.](garkusha.md)
