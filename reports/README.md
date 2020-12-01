@@ -18,7 +18,7 @@
 - [Беседин А.В. ](Besedin.md)
 - [Бокова А.И. ](Bokova.md)
 - [Зметный А.А.](Zmetnyy.md)
-- [Иудина Е.А. ](Iudina.md)
+- [Иудина Е.А. ](iudina_new.md)
 - [Камалетдинов А.А.](Kamaletdinov.md)
 - [Кижаева М.А.](Kizhaeva.md)
 - [Кочнев В.А.](kochnev.md)
