@@ -25,6 +25,7 @@
 - [Новохатский А.В.](novohatsckij.md)
 - [Фролова А.А.](Frolova.md)
 - [Киколиашвили Д.З.](Kikoliashvili.md)
+- [Алексеев М.А.](Alexeev.md)
 
 ## Отчёт
 
