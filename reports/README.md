@@ -33,6 +33,7 @@
 - [Гаркуша Ф.М.](garkusha.md)
 - [Кормилицын А.А](Kormilitsyn.md)
 - [Серяков А.В.](Seryakov.md)
+- [Строганов М.М.](Stroganov.md)
 
 ## Отчёт
 
