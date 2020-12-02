@@ -33,6 +33,10 @@
 - [Карабеков А.С.](Karabekov.md)
 - [Гаркуша Ф.М.](garkusha.md)
 - [Кормилицын А.А](Kormilitsyn.md)
+- [Хрусталев Г.Н.](Khrustalev.md)
+- [Журавлев М.С.](Zhuravlev.md)
+- [Хамидех Н.Х.](Khamidekh.md)
+- [Шик И.А.](Shik.md)
 - [Серяков А.В.](Seryakov.md)
 - [Строганов М.М.](Stroganov.md)
 
